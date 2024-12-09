@@ -44,5 +44,5 @@
             "ws"
         ]
     },
-    "include": ["./types/imgnx.d.ts", "./src/**/*"]
+    "include": ["./types/imgnx.d.ts", "./src/*", "./src/**/*"]
 }

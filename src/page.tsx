@@ -1,14 +1,15 @@
-"use client";
+// "use client";
 
 import React from "react";
 
-const Page = ({ children }: { children: any }) => {
+const Page = () => {
     return (
-        <React.Fragment>
-            {/* Silence is golden */}
-            {children}
-            {/* Duct tape is silver */}
-        </React.Fragment>
+        <div>
+            <div>Silence is golden.</div>
+            <br />
+            Duct tape is silver.
+            <br />
+        </div>
     );
 };
 

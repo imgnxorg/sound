@@ -78,7 +78,7 @@ const webpack = {
     ],
     devServer: {
         static: {
-            directory: join(__dirname, "cache"),
+            directory: join(__dirname, "public"),
         },
         compress: true, // Enable gzip compression for everything served
         port: 3000, // Port to run the dev server on
